@@ -2,6 +2,12 @@
     width: 90px;
 }
 
-.bg_1{
+/* .bg_1{
     height: 80px;
+} */
+
+.slid_Img{
+    height: 363px;
+    width: 100%;
+    display: block;
 }
