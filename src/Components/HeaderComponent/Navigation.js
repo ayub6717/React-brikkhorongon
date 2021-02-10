@@ -3,8 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import {FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { Navbar, Nav, Form, FormControl, Button, NavDropdown, } from 'react-bootstrap'
-import classes from './../HeaderComponent/header.module.css'
-function Header() {
+import classes   from './../HeaderComponent/header.module.css'
+function Navigation() {
     return (
         <>
             <Navbar className={classes.bg_1}  collapseOnSelect expand="md" bg="dark" variant="dark" >
@@ -34,4 +34,4 @@ function Header() {
     )
 }
 
-export default Header
+export default Navigation
